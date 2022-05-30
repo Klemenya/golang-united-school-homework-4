@@ -13,7 +13,7 @@ var (
 	errorNotTwoOperands = errors.New("expecting two operands, but received more or less")
 )
 
-
+// test
 func StringSum(input string) (output string, err error) {
 	var errorEmptyInputMy = fmt.Errorf("Error_input_empty: %w", errorEmptyInput)
 	var errorPresentLetterMy = fmt.Errorf("Error: letter present ")
